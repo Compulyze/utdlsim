@@ -100,7 +100,7 @@ st.markdown("""
 # ==========================================
 st.markdown("<h1>UTDL</h1>", unsafe_allow_html=True)
 st.markdown("<h1>GENESIS</h1>", unsafe_allow_html=True)
-st.markdown("<h2>Universal Tension-Driven Lattice</h2>", unsafe_allow_html=True)
+
 
 # ==========================================
 # 3. VERTICAL MOBILE STUDIO (ADDED AS REQUESTED)
@@ -586,7 +586,7 @@ webgl_lattice = """
 </body>
 </html>
 """
-components.html(webgl_lattice, height=600)
+components.html(webgl_lattice, height=420)
 
 st.markdown("""
 <div class='cinematic'>
@@ -731,11 +731,10 @@ st.markdown("""
     — William Oliver Rubin
 </div>
 """, unsafe_allow_html=True)
-
+st.markdown("<div class='cinematic'>The lattice lives.<br>Reality is here.<br>You have seen genesis.</div>", unsafe_allow_html=True)
 st.markdown("""
 <a href="https://utdlx.com" class="back-link">
     &lt; RETURN TO UTDLX.COM
 </a>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='cinematic'>The lattice lives.<br>Reality is here.<br>You have seen genesis.</div>", unsafe_allow_html=True)
